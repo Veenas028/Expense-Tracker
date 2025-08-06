@@ -9,7 +9,7 @@ const userRoutes = require("./routes/authRoutes");
 const incomeRoutes = require("./routes/incomeRoutes");
 const expenseRoutes = require("./routes/expenseRoutes");
 const dashboardRoutes = require("./routes/dashboardRoutes");
-const __dirname = path.resolve();
+
 
 dotenv.config();
 connectDB();
